@@ -1,0 +1,14 @@
+const String kAppIcon = "assets/images/logo/primary.png";
+const String kAppIconSecondary = "assets/images/logo/primary.png";
+const String kOnboardingAsset = "assets/images/illustration.jpg";
+const String kUserAsset = "assets/images/2.jpg";
+const String docVerification = "assets/images/doc-verification.jpg";
+const String cowPng = "assets/images/cow2.png";
+const String buffaloPng = "assets/images/buffalo.png";
+const String sheepPng = "assets/images/sheep.png";
+const String goatPng = "assets/images/goat.png";
+const String dogPng = "assets/images/dog2.png";
+const String catPng = "assets/images/cat.png";
+const String poultryPng = "assets/images/poultry.png";
+const String birdsPng = "assets/images/birds.png";
+const String exoticPng = "assets/images/others.png";

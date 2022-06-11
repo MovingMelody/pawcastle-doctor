@@ -1,0 +1,362 @@
+{
+  "project_info": {
+    "project_number": "1031070226417",
+    "project_id": "vetremedihq",
+    "storage_bucket": "vetremedihq.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031070226417:android:3e131bfe4578dd7ce11650",
+        "android_client_info": {
+          "package_name": "com.example.petdoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031070226417-75bpsds8qvc93p8sln90l0rpvu9b5lli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petdoctor",
+            "certificate_hash": "cc61582f8b797da9c35deb49d27913294e0b415b"
+          }
+        },
+        {
+          "client_id": "1031070226417-inm8o3uu9kgsq4nk44iqnjg0fom9a1ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFQHqNB1FwbA8a5xGv6t8GkfiO1lsZr4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031070226417-inm8o3uu9kgsq4nk44iqnjg0fom9a1ad.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1031070226417-nm6nd1h8868lc3s7dc27a0rgve1dp0am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vetremedi.doc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031070226417:android:145e1506fb86bd9be11650",
+        "android_client_info": {
+          "package_name": "com.example.petowner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031070226417-56ojjtt79kp6j61vtols0e827q0r4ssn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petowner",
+            "certificate_hash": "cc61582f8b797da9c35deb49d27913294e0b415b"
+          }
+        },
+        {
+          "client_id": "1031070226417-inm8o3uu9kgsq4nk44iqnjg0fom9a1ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFQHqNB1FwbA8a5xGv6t8GkfiO1lsZr4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031070226417-inm8o3uu9kgsq4nk44iqnjg0fom9a1ad.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1031070226417-nm6nd1h8868lc3s7dc27a0rgve1dp0am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vetremedi.doc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031070226417:android:bd1bf9aa061f3e90e11650",
+        "android_client_info": {
+          "package_name": "com.vetremedi.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031070226417-2h78gi25jo3k6tikjan915p640jo7hsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.customer",
+            "certificate_hash": "a63f3335c27a0a6d1d7ca9c12f8bca15c4e697b8"
+          }
+        },
+        {
+          "client_id": "1031070226417-4aml9dkckunn9u9hlqrm1mjgjppp9ina.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.customer",
+            "certificate_hash": "cc61582f8b797da9c35deb49d27913294e0b415b"
+          }
+        },
+        {
+          "client_id": "1031070226417-bc52in3f7voevp4tfp0f34ba69pm7uj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.customer",
+            "certificate_hash": "ee1cd053553549eab8dd9673e01ab1682e287f6a"
+          }
+        },
+        {
+          "client_id": "1031070226417-fss8hnmlfi8qps5phcrv061b5dr3a6bv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.customer",
+            "certificate_hash": "870a06108c3c4898b58c72ee2846d335d2b3624f"
+          }
+        },
+        {
+          "client_id": "1031070226417-inm8o3uu9kgsq4nk44iqnjg0fom9a1ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFQHqNB1FwbA8a5xGv6t8GkfiO1lsZr4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031070226417-inm8o3uu9kgsq4nk44iqnjg0fom9a1ad.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1031070226417-nm6nd1h8868lc3s7dc27a0rgve1dp0am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vetremedi.doc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031070226417:android:ce392e19de5801d7e11650",
+        "android_client_info": {
+          "package_name": "com.vetremedi.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031070226417-4i5qq0g18ihe00v6cudpde2cbpn95r68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.delivery",
+            "certificate_hash": "a63f3335c27a0a6d1d7ca9c12f8bca15c4e697b8"
+          }
+        },
+        {
+          "client_id": "1031070226417-9r20a334f4fi80r4at65dc250afv2rs4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.delivery",
+            "certificate_hash": "63c29714d6fb03bba994a6206caacaa16dcb3391"
+          }
+        },
+        {
+          "client_id": "1031070226417-j16f7sibojqaep6a16tqdcdb1gl959pa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.delivery",
+            "certificate_hash": "cc61582f8b797da9c35deb49d27913294e0b415b"
+          }
+        },
+        {
+          "client_id": "1031070226417-nchvkp38navkdtqus6o2ht7v1h2rkvh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.delivery",
+            "certificate_hash": "3fdca286da2bc906141f651c3ecad2a693997942"
+          }
+        },
+        {
+          "client_id": "1031070226417-inm8o3uu9kgsq4nk44iqnjg0fom9a1ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFQHqNB1FwbA8a5xGv6t8GkfiO1lsZr4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031070226417-inm8o3uu9kgsq4nk44iqnjg0fom9a1ad.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1031070226417-nm6nd1h8868lc3s7dc27a0rgve1dp0am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vetremedi.doc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031070226417:android:8f3edc55d5e15d8ae11650",
+        "android_client_info": {
+          "package_name": "com.vetremedi.doc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031070226417-0khooi2gs6rsv4a25mufoklaahii6a4m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.doc",
+            "certificate_hash": "b30aace904454fcce407d5aa9e2a7b5be3265dd5"
+          }
+        },
+        {
+          "client_id": "1031070226417-2j9jo4q1v9935kk1ikrvjde1ed3496lb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.doc",
+            "certificate_hash": "cc61582f8b797da9c35deb49d27913294e0b415b"
+          }
+        },
+        {
+          "client_id": "1031070226417-53f98339vu33c4sq495k4s3aopfuqc7a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.doc",
+            "certificate_hash": "a63f3335c27a0a6d1d7ca9c12f8bca15c4e697b8"
+          }
+        },
+        {
+          "client_id": "1031070226417-9chbkn7n7foogn9c10gulgbdrgcufgps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.doc",
+            "certificate_hash": "6f24db59c6bcb9ed9bd4d6d68efa49da47aa9399"
+          }
+        },
+        {
+          "client_id": "1031070226417-inm8o3uu9kgsq4nk44iqnjg0fom9a1ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFQHqNB1FwbA8a5xGv6t8GkfiO1lsZr4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031070226417-inm8o3uu9kgsq4nk44iqnjg0fom9a1ad.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1031070226417-nm6nd1h8868lc3s7dc27a0rgve1dp0am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vetremedi.doc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031070226417:android:f1d1540700ce55cbe11650",
+        "android_client_info": {
+          "package_name": "com.vetremedi.pharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031070226417-7ucsvuhch45j4afmq4evnbb12ejoe6pt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.pharmacy",
+            "certificate_hash": "a63f3335c27a0a6d1d7ca9c12f8bca15c4e697b8"
+          }
+        },
+        {
+          "client_id": "1031070226417-ab7dhpfhfavducv24qi5rtfhm9qls29o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.pharmacy",
+            "certificate_hash": "cc61582f8b797da9c35deb49d27913294e0b415b"
+          }
+        },
+        {
+          "client_id": "1031070226417-hipltuegfri4a3o3qhra2fn62lpcblho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetremedi.pharmacy",
+            "certificate_hash": "33b382d1806e199f3fbe5062d1717461724bf7dd"
+          }
+        },
+        {
+          "client_id": "1031070226417-inm8o3uu9kgsq4nk44iqnjg0fom9a1ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFQHqNB1FwbA8a5xGv6t8GkfiO1lsZr4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031070226417-inm8o3uu9kgsq4nk44iqnjg0fom9a1ad.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1031070226417-nm6nd1h8868lc3s7dc27a0rgve1dp0am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vetremedi.doc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
