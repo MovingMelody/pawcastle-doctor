@@ -54,6 +54,7 @@ class GlobalMedicinesViewModel extends BaseViewModel {
     var result = await _medicineService.fetchGlobalMedicines();
     _allMedicines = result;
     allMedicinesWithSearch = _allMedicines;
+    _log.v(_allMedicines);
 
     _log.v("after fetching medicines from supa");
 

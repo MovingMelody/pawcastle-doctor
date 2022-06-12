@@ -44,12 +44,12 @@ class HomeView extends StatelessWidget {
             ],
           ),
           body: model.isBusy
-              ? Center(child: CircularProgressIndicator())
+              ? const Center(child: CircularProgressIndicator())
               : RefreshIndicator(
                   onRefresh: () => model.getDoctorTreatments(),
                   child: ListView(
                       padding:
-                          EdgeInsets.symmetric(vertical: 18.0, horizontal: 14),
+                          const EdgeInsets.symmetric(vertical: 18.0, horizontal: 14),
                       children: [
                         if (model.missedCall.caseId.isNotEmpty &&
                             !model.isExpired)
@@ -57,7 +57,7 @@ class HomeView extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              UIText.label('Incoming Calls'),
+                              const UIText.label('Incoming Calls'),
                               Card(
                                 child: ListTile(
                                   contentPadding: const EdgeInsets.all(8.0),
@@ -69,7 +69,7 @@ class HomeView extends StatelessWidget {
                                   ),
                                   trailing: IconButton(
                                       onPressed: () => model.acceptCall(),
-                                      icon: Icon(
+                                      icon: const Icon(
                                         Icons.call,
                                         color: kSuccessColor,
                                       )),

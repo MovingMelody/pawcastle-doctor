@@ -17,6 +17,7 @@ class ProfileView extends StatelessWidget {
           automaticallyImplyLeading: false,
           title: const AppbarLogo(
             titleColor: kTextPrimaryDarkColor,
+            logoImage: kAppIcon2,
           ),
           elevation: 0,
           backgroundColor: kDoctorColor,

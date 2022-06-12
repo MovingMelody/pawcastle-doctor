@@ -87,7 +87,6 @@ class DiagnosisViewModel extends BaseCallViewModel
         if (temperature.isEmpty |
             respiration.isEmpty |
             feeding.isEmpty |
-            deworming.isEmpty |
             vaccination.isEmpty |
             drinkingWater.isEmpty) {
           Fluttertoast.showToast(msg: kDetailsErrorMessage);
@@ -104,17 +103,6 @@ class DiagnosisViewModel extends BaseCallViewModel
         }
 
         break;
-
-      // case 3:
-      //   if (pharmacy == null) {
-      //     Fluttertoast.showToast(msg: 'Please select any pharmacy to continue');
-      //     return;
-      //   } else {
-      //     _selectedMedicinesStore.clearMedicines();
-      //     notifyListeners();
-      //   }
-
-      // break;
 
       case 4:
         if (selectedMedicines.isEmpty) {
@@ -133,9 +121,12 @@ class DiagnosisViewModel extends BaseCallViewModel
           Fluttertoast.showToast(msg: 'Treatment Success');
         }
     }
-
-    currentPageIndex =
-        currentPageIndex == 5 ? currentPageIndex : currentPageIndex + 1;
+    if (currentPageIndex == 2) {
+      currentPageIndex = 4;
+    } else {
+      currentPageIndex =
+          currentPageIndex == 5 ? currentPageIndex : currentPageIndex + 1;
+    }
 
     notifyListeners();
   }

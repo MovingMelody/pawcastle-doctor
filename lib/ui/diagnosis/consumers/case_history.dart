@@ -17,9 +17,9 @@ class CaseHistory extends ViewModelWidget<DiagnosisViewModel> {
     return ListView(
       padding: const EdgeInsets.all(16.0),
       children: [
-        TreatmentDetailsCard(),
+        const TreatmentDetailsCard(),
         verticalSpaceMedium,
-        UIText.label(
+        const UIText.label(
           "Case History",
           size: TxtSize.Large,
         ),

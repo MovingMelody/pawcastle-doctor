@@ -17,37 +17,29 @@ class FetchPharmacies extends ViewModelWidget<DiagnosisViewModel> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: const [
           UIText.label(
-            "Pharmacies",
+            "Prescribe Medicines",
             size: TxtSize.Large,
           ),
         ],
       ),
-      if (viewModel.isBusy) Text("Fetching nearby pharmacies"),
       verticalSpaceMedium,
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            verticalSpaceLarge,
-            verticalSpaceLarge,
-            const UIText.heading(
-              "No nearby pharmacies found. Prescribe medicines without creating order to pharmacy",
-              textAlign: TextAlign.center,
-              size: TxtSize.Small,
-            ),
-            verticalSpaceMedium,
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                UIButton.primary(
-                  "Prescribe Medicines",
-                  onTap: () =>
-                      viewModel.continueToPrescribeFromGlobalMedicines(),
-                ),
-              ],
-            )
-          ],
-        ),
+      Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          verticalSpaceLarge,
+          verticalSpaceMedium,
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              UIButton.primary(
+                "Continue",
+                onTap: () => viewModel.continueToPrescribeFromGlobalMedicines(),
+              ),
+            ],
+          )
+        ],
+      ),
     ]);
   }
 }

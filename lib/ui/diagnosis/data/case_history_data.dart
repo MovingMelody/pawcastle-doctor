@@ -11,19 +11,11 @@ class DropdownHelper with CaseSheetOptions {
           'options': temperatureOptions,
         },
         {
-          'title': "Rumination",
-          'options': questionOptions,
-        },
-        {
           'title': "Feeding",
           'options': questionOptions,
         },
         {
           'title': "Drinking Water",
-          'options': questionOptions,
-        },
-        {
-          'title': "Deworming",
           'options': questionOptions,
         },
         {

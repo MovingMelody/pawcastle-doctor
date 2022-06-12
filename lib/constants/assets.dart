@@ -1,4 +1,5 @@
 const String kAppIcon = "assets/images/logo/primary.png";
+const String kAppIcon2 = "assets/images/logo/white.png";
 const String kAppIconSecondary = "assets/images/logo/primary.png";
 const String kOnboardingAsset = "assets/images/illustration.jpg";
 const String kUserAsset = "assets/images/2.jpg";

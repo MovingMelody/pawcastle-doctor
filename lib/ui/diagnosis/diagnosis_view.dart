@@ -24,9 +24,9 @@ class DiagnosisView extends StatelessWidget {
     AnimalDescription(),
     CaseHistory(),
     TentativeDiagnosis(),
-    FetchPharmacies(),
-    SelectedMedicines(),
-    TreatmentSummary()
+    const FetchPharmacies(),
+    const SelectedMedicines(),
+    const TreatmentSummary()
   ];
 
   @override
@@ -40,7 +40,7 @@ class DiagnosisView extends StatelessWidget {
           onWillPop: () =>
               model.showCallExit(exitCall: () => model.disconnect()),
           child: model.isBusy
-              ? Scaffold(
+              ? const Scaffold(
                   body: Center(
                     child: CircularProgressIndicator(),
                   ),
@@ -60,14 +60,14 @@ class DiagnosisView extends StatelessWidget {
                           visible: !model.ended,
                           child: IconButton(
                               onPressed: () => model.showCallSheet(),
-                              icon: Icon(
+                              icon: const Icon(
                                 IconPack.phone,
                                 color: kTextPrimaryLightColor,
                               )),
                         )
                       ],
                       bottom: PreferredSize(
-                        preferredSize: Size(double.infinity, 10),
+                        preferredSize: const Size(double.infinity, 10),
                         child: LinearProgressIndicator(
                           value: (model.currentPageIndex + 1) / _views.length,
                         ),
@@ -80,7 +80,7 @@ class DiagnosisView extends StatelessWidget {
                       index: model.currentPageIndex,
                     ),
                     bottomNavigationBar: Container(
-                      padding: EdgeInsets.all(16.0),
+                      padding: const EdgeInsets.all(16.0),
                       color: Colors.white,
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -89,7 +89,7 @@ class DiagnosisView extends StatelessWidget {
                             visible: model.currentPageIndex != 0,
                             child: TextButton(
                                 onPressed: () => model.back(),
-                                child: Text("Back")),
+                                child: const Text("Back")),
                           ),
                           Visibility(
                             visible: model.currentPageIndex != 9,

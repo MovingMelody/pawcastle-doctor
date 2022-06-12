@@ -37,8 +37,9 @@ class CallService {
         var expired = DateConverter.getDate(epochString: doc.data().timestamp)
             .isExpired();
 
-        if (!expired)
+        if (!expired) {
           _missedCallStream.add(doc.data().copyWith(reference: doc.reference));
+        }
       }
     });
   }
