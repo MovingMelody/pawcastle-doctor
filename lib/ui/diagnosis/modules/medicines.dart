@@ -2,9 +2,7 @@ part of 'diagnosis_viewmodel.dart';
 
 extension PrescriptionModule on DiagnosisViewModel {
   naviateToViewMedicines() {
-    if (nearByPharmaciesStatus == false) {
-      _navigationService.navigateTo(Routes.globalMedicinesView);
-    }
+    _navigationService.navigateTo(Routes.globalMedicinesView);
   }
 
   addMedicine(Medicine m) => selectedMedicines
