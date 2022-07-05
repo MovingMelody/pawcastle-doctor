@@ -15,9 +15,6 @@ const String kProfileFormMvsc = 'MVSC';
 
 const String kNotificationChannel = "vetremedi_notifications";
 
-// Supabase Config Keys
-const String kSupakey = "SUPA_KEY";
-const String kSupaUrl = "SUPA_URL";
 
 const String kSupportPhone = "+918977033890";
 

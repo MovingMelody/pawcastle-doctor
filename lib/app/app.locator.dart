@@ -40,9 +40,6 @@ Future<void> setupLocator(
   final environmentService = await EnvironmentService.getInstance();
   locator.registerSingleton(environmentService);
 
-  final supabaseInjection = await SupabaseInjection.getSupabase();
-  locator.registerSingleton(supabaseInjection);
-
   final packageInjection = await PackageInjection.getInstance();
   locator.registerSingleton(packageInjection);
 

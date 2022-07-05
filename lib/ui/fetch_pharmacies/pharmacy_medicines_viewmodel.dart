@@ -36,7 +36,7 @@ class PharmacyMedicinesViewModel extends BaseViewModel {
   }
 
   void getMedicinesFromSupabase() async {
-    _log.v("fetching medicines from supabase");
+    _log.v("fetching medicines");
     setBusy(true);
 
     var result = await _medicineService.fetchGlobalMedicines();

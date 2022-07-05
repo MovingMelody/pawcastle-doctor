@@ -48,7 +48,7 @@ class GlobalMedicinesViewModel extends BaseViewModel {
   }
 
   void getMedicinesFromSupabase() async {
-    _log.v("fetching medicines from supabase");
+    _log.v("fetching medicines");
     setBusy(true);
 
     var result = await _medicineService.fetchGlobalMedicines();
@@ -56,7 +56,7 @@ class GlobalMedicinesViewModel extends BaseViewModel {
     allMedicinesWithSearch = _allMedicines;
     _log.v(_allMedicines);
 
-    _log.v("after fetching medicines from supa");
+    _log.v("after fetching medicines ");
 
     for (var eachMedicine in _allMedicines) {
       filterChipsSet.add(eachMedicine.category);

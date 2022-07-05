@@ -61,10 +61,7 @@ import 'package:http/http.dart';
       classType: EnvironmentService,
       presolveUsing: EnvironmentService.getInstance,
     ),
-    Presolve(
-      classType: SupabaseInjection,
-      presolveUsing: SupabaseInjection.getSupabase,
-    ),
+    
     Presolve(
       classType: PackageInjection,
       presolveUsing: PackageInjection.getInstance,
